@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Devvit local state
+.devvit/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.vscode/launch.json
+
+# Backup archives — local only
+*.zip
+
+# Scratch files
+dummmm.md

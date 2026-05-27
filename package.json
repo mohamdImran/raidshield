@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "raidshield26",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "deploy": "devvit upload",
+    "dev": "dotenv -e .env -- devvit playtest",
+    "login": "devvit login",
+    "launch": "devvit publish",
+    "type-check": "tsc --build",
+    "test": "vitest run src/tests"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.2"
+  },
+  "devDependencies": {
+    "devvit": "0.12.2",
+    "dotenv-cli": "8.0.0",
+    "typescript": "5.8.3",
+    "vitest": "^2.1.9"
+  }
+}
